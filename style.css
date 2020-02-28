@@ -1,0 +1,50 @@
+body {
+    background-color:rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+
+}
+button {
+    cursor: pointer;
+}
+.content {
+    background-color: white;
+    height: 200pxpx;
+    width: 600px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 1px black solid;
+    
+
+}
+.tsk {
+    background-color: ghostwhite;
+    height: 95px;
+    width: 555px;
+    padding-top: 0px;
+    border-radius: 5px;
+    border: 1px black solid ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  
+
+}
+
+.tsk p {
+    margin: 0;
+    /* background: blue; */
+}
+/* 
+.tsk :nth-child(2) {
+    background: red;
+    padding: 10px;
+    display: flex;
+    justify-self: flex-end;
+    flex: 2;
+} */
